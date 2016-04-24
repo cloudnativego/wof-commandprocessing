@@ -30,7 +30,7 @@ build:
     - script:
         name: go test
         code: |
-          go test -v ./...
+          go test -v ./service/...
 
     # - script:
     #     name: integration tests

@@ -12,7 +12,7 @@
 		},
 		{
 			"ImportPath": "github.com/cloudnativego/cf-tools",
-			"Rev": "cf008e72185887b3ce2b14d196906d07a208fca4"
+			"Rev": "dc8d414d5a043d522e3750610023aa8994abaaff"
 		},
 		{
 			"ImportPath": "github.com/cloudnativego/cfmgo",
@@ -37,11 +37,11 @@
 		},
 		{
 			"ImportPath": "github.com/gorilla/context",
-			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+			"Rev": "1c83b3eabd45b6d76072b66b746c20815fb2872d"
 		},
 		{
 			"ImportPath": "github.com/gorilla/mux",
-			"Rev": "ee1815431e497d3850809578c93ab6705f1a19f7"
+			"Rev": "9c068cf16d982f8bd444b8c352acbeec34c4fe5b"
 		},
 		{
 			"ImportPath": "github.com/mitchellh/mapstructure",
@@ -49,11 +49,11 @@
 		},
 		{
 			"ImportPath": "github.com/streadway/amqp",
-			"Rev": "2e25825abdbd7752ff08b270d313b93519a0a232"
+			"Rev": "b4f3ceab0337f013208d31348b578d83c0064744"
 		},
 		{
 			"ImportPath": "github.com/unrolled/render",
-			"Rev": "c442bc30e10d9a5ad49f2837d5e175de0bd0a52a"
+			"Rev": "40a2dfa24398d37b4a14938442a0f4fe4307b929"
 		},
 		{
 			"ImportPath": "gopkg.in/mgo.v2",
