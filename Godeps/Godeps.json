@@ -1,0 +1,79 @@
+{
+	"ImportPath": "github.com/cloudnativego/wof-commandprocessing",
+	"GoVersion": "go1.6",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/cloudfoundry-community/go-cfenv",
+			"Comment": "v1.12",
+			"Rev": "c682e189b94b0b2ec6edf12363df2eecf29d7256"
+		},
+		{
+			"ImportPath": "github.com/cloudnativego/cf-tools",
+			"Rev": "cf008e72185887b3ce2b14d196906d07a208fca4"
+		},
+		{
+			"ImportPath": "github.com/cloudnativego/cfmgo",
+			"Rev": "22a91e5f27de8050525ff52884c55989cfdf9aff"
+		},
+		{
+			"ImportPath": "github.com/cloudnativego/cfmgo/params",
+			"Rev": "22a91e5f27de8050525ff52884c55989cfdf9aff"
+		},
+		{
+			"ImportPath": "github.com/cloudnativego/wof-eventprocessing/events",
+			"Rev": "795609bc6ea1c655b399d6af6717b52765891558"
+		},
+		{
+			"ImportPath": "github.com/cloudnativego/wof-mapservice/service",
+			"Rev": "6e19c804015673447953907e754c9220d629d703"
+		},
+		{
+			"ImportPath": "github.com/codegangsta/negroni",
+			"Comment": "v0.1-70-gc7477ad",
+			"Rev": "c7477ad8e330bef55bf1ebe300cf8aa67c492d1b"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "ee1815431e497d3850809578c93ab6705f1a19f7"
+		},
+		{
+			"ImportPath": "github.com/mitchellh/mapstructure",
+			"Rev": "281073eb9eb092240d33ef253c404f1cca550309"
+		},
+		{
+			"ImportPath": "github.com/streadway/amqp",
+			"Rev": "2e25825abdbd7752ff08b270d313b93519a0a232"
+		},
+		{
+			"ImportPath": "github.com/unrolled/render",
+			"Rev": "c442bc30e10d9a5ad49f2837d5e175de0bd0a52a"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/bson",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/sasl",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/scram",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		}
+	]
+}
