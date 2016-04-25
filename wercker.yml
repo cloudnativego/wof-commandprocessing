@@ -17,8 +17,9 @@ build:
         code: |
           cd $WERCKER_SOURCE_DIR
           go version
-          go get -u github.com/tools/godep
+          go get github.com/Masterminds/glide
           export PATH=$WERCKER_SOURCE_DIR/bin:$PATH
+          glide install
 
     # Build the project
     - script:
@@ -30,7 +31,7 @@ build:
     - script:
         name: go test
         code: |
-          go test -v ./service/...
+          go test -v $(glide novendor)
 
     # - script:
     #     name: integration tests
