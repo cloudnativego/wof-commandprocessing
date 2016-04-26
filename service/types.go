@@ -5,8 +5,7 @@ type moveCommand struct {
 	TargetTileID string `json:"target_tile_id"`
 }
 
-type joinCommand struct {
-	GameID   string `json:"game_id"`
+type playerJoinCommand struct {
 	PlayerID string `json:"player_id"`
 	Sprite   string `json:"sprite"`
 	Name     string `json:"name"`

@@ -25,4 +25,5 @@ func NewServer(appEnv *cfenv.App, dispatchers dispatcherMap) *negroni.Negroni {
 func initRoutes(mx *mux.Router, formatter *render.Render, dispatchers dispatcherMap) {
 
 	mx.HandleFunc("/{gameID}/moves", addMoveHandler(formatter, dispatchers[MovesQueueName])).Methods("POST")
+	mx.HandleFunc("/{gameID}/join", playerJoinHandler(formatter, dispatchers[PlayerJoinsQueueName])).Methods("POST")
 }

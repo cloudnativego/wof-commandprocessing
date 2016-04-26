@@ -4,5 +4,5 @@ const (
 	//MovesQueueName is the queue for move events
 	MovesQueueName = "moves"
 	//PlayerJoinQueueName is the queue for player join events
-	PlayerJoinQueueName = "playerjoins"
+	PlayerJoinsQueueName = "playerjoins"
 )

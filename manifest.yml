@@ -1,0 +1,7 @@
+---
+applications:
+- name: janky
+  memory: 64M
+  buildpack: https://github.com/cloudfoundry/go-buildpack
+  env:
+    GOPACKAGENAME: github.com/cloudnativego/wof-commandprocessing
